@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucky @ViewBag.Luck</title>
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        div {
+            background-color: lightgoldenrodyellow;
+            display: inline;
+            font-size: 450%;
+            border-style: solid;
+            border-width: thin;
+            border-color: black;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+        <button type="button" onclick="history.go(0)">Spin</button>
+        <div>@ViewBag.Var1</div><div>@ViewBag.Var2</div><div>@ViewBag.Var3</div>
+        <br />
+        <h1>Lucky @ViewBag.Luck</h1>
+        <img src="~/Images/LuckySevenExercise.jpg" style="display:@ViewBag.Display" alt="coins"/>
+    
+</body>
+</html>
